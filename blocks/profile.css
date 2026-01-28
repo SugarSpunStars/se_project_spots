@@ -5,35 +5,42 @@
   padding: 34px 0 20px;
 }
 
-.profile__container {
-  display: flex;
-  gap: 20px;
-}
 .profile__image {
   border-radius: 10px;
+  margin-right: 20px;
+  max-width: 190px;
+  max-height: 190px;
 }
 
 .profile__text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  max-width: 330px;
+  line-height: 1;
 }
 
 .profile__header {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.profile__name {
+  margin: 0 0 12px;
   font-weight: 500;
   font-size: 32px;
+  color: #212121;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .profile__description {
   color: #212121b2;
   font-size: 16px;
   font-weight: 500;
+  margin: 0;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .profile__edit-button {
@@ -41,8 +48,12 @@
   background-color: #fcf5e5;
   font-weight: 500;
   color: #212121b2;
-  max-width: 120px;
-  font-weight: 500;
+  max-width: 108px;
+  margin-top: auto;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+  line-height: 1;
 }
 .profile__edit-button:hover {
   color: #212121;
@@ -51,6 +62,11 @@
 
 .profile__edit-button_icon {
   opacity: 70%;
+  margin-right: 6px;
+}
+
+.profile__edit-button_icon:hover {
+  opacity: 1;
 }
 
 .profile__post-button {
@@ -62,6 +78,9 @@
   margin-top: auto;
   color: #fcf5e5;
   font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
 }
 
 .profile__post-button_icon {
@@ -71,4 +90,36 @@
 
 .profile__post-button:hover {
   background-color: #212121cc;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    padding-top: 20px;
+    max-width: 288px;
+    margin: 0 auto;
+  }
+  .profile__image {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 12px;
+  }
+  .profile__text {
+    text-align: center;
+    max-width: 288px;
+  }
+  .profile__header {
+    margin: 0 0 6px;
+    font-size: 20px;
+  }
+  .profile__description {
+    margin: 0 0 32px;
+  }
+  .profile__edit-button {
+    margin: 0 auto 0;
+  }
+  .profile__post-button {
+    width: 288px;
+    margin: 20px auto 0;
+  }
 }

@@ -1,45 +1,16 @@
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(auto-fit, 413px);
   gap: 20px;
-  border-bottom: 1px solid #212121;
+  border-bottom: 1px solid #21212166;
   padding: 20px 0;
+  justify-content: center;
 }
 
-.card__container {
-  padding-bottom: 20px;
-}
-
-.card__image {
-  max-width: 413px;
-  max-height: 413px;
-  width: 413px;
-  height: 413px;
-  object-fit: cover;
-  display: block;
-  border-radius: 10px;
-}
-
-.card__description-wrap {
-  display: flex;
-  justify-content: space-between;
-  padding: 8px 0;
-}
-
-.card__description {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.card__like-button {
-  background-color: #fcf5e5;
-  border: none;
-}
-
-.card__like-icon {
-  opacity: 40%;
-}
-
-.card__like-icon:hover {
-  opacity: 1;
+@media screen and (max-width: 627px) {
+  .cards {
+    max-width: 288px;
+    margin: 0 auto;
+    grid-template-columns: none;
+  }
 }
