@@ -1,21 +1,41 @@
 # Project 3: Spots
 
-### Overview  
+_Overview_
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+Spots is an online image gallery for artists to share their work.
+
+## Project Features
+
+- BEM File Structure
+- Hover States
+- Pointer Cursor
+- Flex Box
+- Grid Box
+- Text Overflow
+- Media Queries
+
+### Summery
+
+This project, that I have named _Ariel's Grotto_, is an image sharing website for both professionals and non-professionals. It was created by following a Figma draft and was designed to work on:
+
+_big screens_
+![3x3 grid](./images/desktop-preview.png)
+
+_medium screens_
+![2x2 grid](./images/tablet-preveiw.png)
+
+_small screens_
+![single colunm](./images/phone-preveiw.png)
+
+The website should flow from one size to another seemlessly.
+![gif](./images/spots-project-1%20small.gif)
+
+- **Future plans**
+
+- working inputs
+- like button animation
+- search function
+
+#### Wrap-up
+
+Thank you for your interest in my project. Please be sure to vist the website [here!](https://sugarspunstars.github.io/se_project_spots/)
