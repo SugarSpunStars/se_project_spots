@@ -60,12 +60,12 @@
   opacity: 1;
 }
 
-.profile__edit-button_icon {
+.profile__edit-icon {
   opacity: 70%;
   margin-right: 6px;
 }
 
-.profile__edit-button_icon:hover {
+.profile__edit-icon:hover {
   opacity: 1;
 }
 
@@ -83,13 +83,13 @@
   padding: 0;
 }
 
-.profile__post-button_icon {
-  height: 12px;
-  width: 12px;
-}
-
 .profile__post-button:hover {
   background-color: #212121cc;
+}
+
+.profile__post-icon {
+  height: 12px;
+  width: 12px;
 }
 
 @media screen and (max-width: 627px) {
