@@ -39,3 +39,7 @@ The website should flow from one size to another seemlessly.
 #### Wrap-up
 
 Thank you for your interest in my project. Please be sure to vist the website [here!](https://sugarspunstars.github.io/se_project_spots/)
+
+#### Project Pitch Video
+
+Please check out my [Pitch Video](https://drive.google.com/file/d/121MGvqlsX-v5UxTF7cwV_mSzlaX6IafZ/view?usp=sharing), where I talk more about my project and some challenges I faced while building it!
