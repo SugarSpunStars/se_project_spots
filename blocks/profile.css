@@ -1,21 +1,20 @@
 .profile {
   display: flex;
-
   border-bottom: 1px solid #21212166;
   padding: 34px 0 20px;
 }
 
 .profile__image {
-  border-radius: 10px;
+  border-radius: 8px;
   margin-right: 20px;
-  max-width: 190px;
-  max-height: 190px;
+  width: 190px;
+  height: 190px;
 }
 
 .profile__text {
   display: flex;
   flex-direction: column;
-  max-width: 330px;
+  max-width: 420px;
   line-height: 1;
 }
 
@@ -47,7 +46,8 @@
   border: none;
   background-color: #fcf5e5;
   font-weight: 500;
-  color: #212121b2;
+  color: #212121;
+  opacity: 0.7;
   max-width: 108px;
   margin-top: auto;
   padding: 0;
@@ -56,13 +56,12 @@
   line-height: 1;
 }
 .profile__edit-button:hover {
-  color: #212121;
   opacity: 1;
 }
 
 .profile__edit-icon {
   opacity: 70%;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 
 .profile__edit-icon:hover {
